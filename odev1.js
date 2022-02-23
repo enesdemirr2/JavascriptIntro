@@ -5,14 +5,14 @@ Sonra bu saniye değerinin kaç dakika ve saniyeye denk geldiğini yazdırın.
 Örnek 1200 değeri için 20 dakika 0 saniye yazmalıdır. */
 
 
-/*let saniyeString =  prompt("Saniye değeri giriniz: ", "100");
+let saniyeString =  prompt("Saniye değeri giriniz: ", "100");
 let saniye = parseInt(saniyeString);
 
 let dakika = parseInt((saniye / 60), 10);
 let kalanSaniye = saniye % 60;
 
 console.log(typeof saniye); 
-console.log(`Girdiğiniz ${saniye} değeri : ${dakika} dakika ve ${kalanSaniye} saniyedir.` ); */
+console.log(`Girdiğiniz ${saniye} değeri : ${dakika} dakika ve ${kalanSaniye} saniyedir.` ); 
 
 //---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -24,11 +24,11 @@ Sonrasında bu değerin kaç Celcius olduğunu hesaplayın.
 Hesaplama formulü : celcius =  5/9 * (fahrenheit - 32)
 */
 
-/*let girilenFahrenheitString = prompt("Fahrenheit cinsinden değeri girin: " , "100");
+let girilenFahrenheitString = prompt("Fahrenheit cinsinden değeri girin: " , "100");
 let fahrenheit = parseInt(girilenFahrenheitString);
 
 let celcius = (5 / 9) * (fahrenheit - 32) ;
-console.log(`Girdiğiniz ${fahrenheit} değeri : ${celcius.toFixed(2)} celcius derecesine eşittir.`);*/
+console.log(`Girdiğiniz ${fahrenheit} değeri : ${celcius.toFixed(2)} celcius derecesine eşittir.`);
 
 
 
